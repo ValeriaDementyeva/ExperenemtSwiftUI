@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
-
-@main
-struct ExperenemtSwiftUIApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+//
+//@main
+//struct ExperenemtSwiftUIApp: App {
+//    var body: some Scene {
+//        WindowGroup {
+//            Experement()
+//        }
+//    }
+//}
