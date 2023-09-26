@@ -5,9 +5,6 @@
 //  Created by Валерия Дементьева on 25.09.2023.
 //
 
-import SwiftUI
-
-
     import SwiftUI
     @main
     struct Experement25App: App {

@@ -10,9 +10,12 @@ import SwiftUI
 struct Experement25: View {
     @Environment(\.managedObjectContext) var moc
     @State private var lastNameFilter = "A"
+    @State private var filterType = FilterType.beginsWith
+    @State private var sortDescriptors = [SortDescriptor<Singer>]()
+
     var body: some View {
         VStack{
-            FiltredList(filterKey: "lastName", filterValue: lastNameFilter) { (singer: Singer) in
+            FiltredList(filterKey: "lastName", filterValue: lastNameFilter, filterType: filterType, sortDescriptors: sortDescriptors) { (singer: Singer) in
                 Text("\(singer.wrappedFirstMane) \(singer.wrappedLastMane)")
             }
             
@@ -40,6 +43,22 @@ struct Experement25: View {
                      Button("Show S") {
                          lastNameFilter = "S"
                      }
+
+            Button("BEGINS WITH") {
+                filterType = FilterType.beginsWith
+            }
+
+            Button("CONTAINS") {
+                filterType = FilterType.contains
+            }
+            Button("Sort A-Z") {
+                        sortDescriptors = [SortDescriptor(\.firstName)]
+                    }
+
+                    Button("Sort Z-A") {
+                        sortDescriptors = [SortDescriptor(\.firstName, order: .reverse)]
+                    }
+            
         }
     }
 }

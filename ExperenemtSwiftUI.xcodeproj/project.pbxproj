@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D59B8D52AC2E8DD002A00B6 /* Experement26App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8D42AC2E8DD002A00B6 /* Experement26App.swift */; };
+		4D59B8D72AC2E8ED002A00B6 /* Experement26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8D62AC2E8ED002A00B6 /* Experement26.swift */; };
+		4D59B8D92AC2E8FD002A00B6 /* DataController26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8D82AC2E8FD002A00B6 /* DataController26.swift */; };
+		4D59B8DC2AC2E926002A00B6 /* Experement26.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8DA2AC2E926002A00B6 /* Experement26.xcdatamodeld */; };
+		4D59B8E12AC2EB13002A00B6 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8DD2AC2EB13002A00B6 /* Candy+CoreDataClass.swift */; };
+		4D59B8E22AC2EB13002A00B6 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8DE2AC2EB13002A00B6 /* Candy+CoreDataProperties.swift */; };
+		4D59B8E32AC2EB13002A00B6 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8DF2AC2EB13002A00B6 /* Country+CoreDataClass.swift */; };
+		4D59B8E42AC2EB13002A00B6 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8E02AC2EB13002A00B6 /* Country+CoreDataProperties.swift */; };
 		4DF1A67A2AB8C91400E9D399 /* ExperenemtSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1A6792AB8C91400E9D399 /* ExperenemtSwiftUIApp.swift */; };
 		4DF1A67C2AB8C91400E9D399 /* Experement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1A67B2AB8C91400E9D399 /* Experement.swift */; };
 		4DF1A67E2AB8C91500E9D399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1A67D2AB8C91500E9D399 /* Assets.xcassets */; };
@@ -72,6 +80,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D59B8D42AC2E8DD002A00B6 /* Experement26App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experement26App.swift; sourceTree = "<group>"; };
+		4D59B8D62AC2E8ED002A00B6 /* Experement26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experement26.swift; sourceTree = "<group>"; };
+		4D59B8D82AC2E8FD002A00B6 /* DataController26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController26.swift; sourceTree = "<group>"; };
+		4D59B8DB2AC2E926002A00B6 /* Experement26.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Experement26.xcdatamodel; sourceTree = "<group>"; };
+		4D59B8DD2AC2EB13002A00B6 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4D59B8DE2AC2EB13002A00B6 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D59B8DF2AC2EB13002A00B6 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4D59B8E02AC2EB13002A00B6 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4DF1A6762AB8C91400E9D399 /* ExperenemtSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExperenemtSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF1A6792AB8C91400E9D399 /* ExperenemtSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperenemtSwiftUIApp.swift; sourceTree = "<group>"; };
 		4DF1A67B2AB8C91400E9D399 /* Experement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experement.swift; sourceTree = "<group>"; };
@@ -148,6 +164,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D59B8D32AC2E8C2002A00B6 /* Experement26 */ = {
+			isa = PBXGroup;
+			children = (
+				4D59B8D42AC2E8DD002A00B6 /* Experement26App.swift */,
+				4D59B8D62AC2E8ED002A00B6 /* Experement26.swift */,
+				4D59B8DD2AC2EB13002A00B6 /* Candy+CoreDataClass.swift */,
+				4D59B8DE2AC2EB13002A00B6 /* Candy+CoreDataProperties.swift */,
+				4D59B8DF2AC2EB13002A00B6 /* Country+CoreDataClass.swift */,
+				4D59B8E02AC2EB13002A00B6 /* Country+CoreDataProperties.swift */,
+				4D59B8DA2AC2E926002A00B6 /* Experement26.xcdatamodeld */,
+				4D59B8D82AC2E8FD002A00B6 /* DataController26.swift */,
+			);
+			path = Experement26;
+			sourceTree = "<group>";
+		};
 		4DF1A66D2AB8C91400E9D399 = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +224,7 @@
 				4DF1A6ED2AC19A4600E9D399 /* Experement 23 */,
 				4DF1A6F92AC1A11400E9D399 /* Experement24 */,
 				4DF1A7052AC1AF3100E9D399 /* Experement25 */,
+				4D59B8D32AC2E8C2002A00B6 /* Experement26 */,
 				4DF1A67D2AB8C91500E9D399 /* Assets.xcassets */,
 				4DF1A67F2AB8C91500E9D399 /* Preview Content */,
 			);
@@ -397,19 +429,24 @@
 				4DF1A6B62ABA017F00E9D399 /* Experement14.swift in Sources */,
 				4DF1A7042AC1AD3D00E9D399 /* Experement24App.swift in Sources */,
 				4DF1A6DD2ABC8C4400E9D399 /* GeneralView22.swift in Sources */,
+				4D59B8D52AC2E8DD002A00B6 /* Experement26App.swift in Sources */,
+				4D59B8E32AC2EB13002A00B6 /* Country+CoreDataClass.swift in Sources */,
 				4DF1A6C62ABB11DE00E9D399 /* AddressView.swift in Sources */,
 				4DF1A68A2AB8C98A00E9D399 /* Experement2.swift in Sources */,
 				4DF1A6E82ABCA0C500E9D399 /* EmojiRatingView.swift in Sources */,
 				4DF1A6D62ABC88C400E9D399 /* BookwormApp1.swift in Sources */,
 				4DF1A6C42ABB11B600E9D399 /* GeneralView19.swift in Sources */,
 				4DF1A6B22AB9FF9E00E9D399 /* Experement13.swift in Sources */,
+				4D59B8D92AC2E8FD002A00B6 /* DataController26.swift in Sources */,
 				4DF1A7072AC1AF5000E9D399 /* Experement25.swift in Sources */,
 				4DF1A7022AC1A9A900E9D399 /* Experement24.xcdatamodeld in Sources */,
 				4DF1A7112AC1B03500E9D399 /* Singer+CoreDataClass.swift in Sources */,
 				4DF1A69D2AB8CCB000E9D399 /* GeneralView.swift in Sources */,
 				4DF1A6A42AB9F5FD00E9D399 /* Experement10.swift in Sources */,
+				4D59B8D72AC2E8ED002A00B6 /* Experement26.swift in Sources */,
 				4DF1A6FD2AC1A98100E9D399 /* Experement24.swift in Sources */,
 				4DF1A7142AC1B1CD00E9D399 /* FiltredList.swift in Sources */,
+				4D59B8E12AC2EB13002A00B6 /* Candy+CoreDataClass.swift in Sources */,
 				4DF1A6F52AC19B4200E9D399 /* Movie+CoreDataClass.swift in Sources */,
 				4DF1A6D82ABC8A4400E9D399 /* Experement21.swift in Sources */,
 				4DF1A6EA2ABCAAD500E9D399 /* DetailView.swift in Sources */,
@@ -418,8 +455,11 @@
 				4DF1A6C22ABB113A00E9D399 /* Order.swift in Sources */,
 				4DF1A6E42ABC8DC100E9D399 /* AddBookView.swift in Sources */,
 				4DF1A6BA2ABA08D900E9D399 /* Experement16.swift in Sources */,
+				4D59B8DC2AC2E926002A00B6 /* Experement26.xcdatamodeld in Sources */,
 				4DF1A6CC2ABB243600E9D399 /* SharedOrder.swift in Sources */,
+				4D59B8E22AC2EB13002A00B6 /* Candy+CoreDataProperties.swift in Sources */,
 				4DF1A6B02AB9FCC600E9D399 /* Experement12.swift in Sources */,
+				4D59B8E42AC2EB13002A00B6 /* Country+CoreDataProperties.swift in Sources */,
 				4DF1A6DF2ABC8C8700E9D399 /* DataController.swift in Sources */,
 				4DF1A67A2AB8C91400E9D399 /* ExperenemtSwiftUIApp.swift in Sources */,
 				4DF1A69F2AB8D28400E9D399 /* ExpenseSection.swift in Sources */,
@@ -629,6 +669,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		4D59B8DA2AC2E926002A00B6 /* Experement26.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D59B8DB2AC2E926002A00B6 /* Experement26.xcdatamodel */,
+			);
+			currentVersion = 4D59B8DB2AC2E926002A00B6 /* Experement26.xcdatamodel */;
+			path = Experement26.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		4DF1A6D02ABC87F600E9D399 /* Bookworm1.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
