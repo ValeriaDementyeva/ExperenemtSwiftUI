@@ -15,6 +15,11 @@
 		4D59B8E22AC2EB13002A00B6 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8DE2AC2EB13002A00B6 /* Candy+CoreDataProperties.swift */; };
 		4D59B8E32AC2EB13002A00B6 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8DF2AC2EB13002A00B6 /* Country+CoreDataClass.swift */; };
 		4D59B8E42AC2EB13002A00B6 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8E02AC2EB13002A00B6 /* Country+CoreDataProperties.swift */; };
+		4D59B8E62AC435BB002A00B6 /* Experement27.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8E52AC435BB002A00B6 /* Experement27.swift */; };
+		4D59B8E82AC45331002A00B6 /* Experement28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8E72AC45331002A00B6 /* Experement28.swift */; };
+		4D59B8EA2AC46012002A00B6 /* Experement29.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8E92AC46012002A00B6 /* Experement29.swift */; };
+		4D59B8ED2AC461CF002A00B6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8EC2AC461CF002A00B6 /* ImagePicker.swift */; };
+		4D59B8EF2AC484AE002A00B6 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D59B8EE2AC484AE002A00B6 /* ImageSaver.swift */; };
 		4DF1A67A2AB8C91400E9D399 /* ExperenemtSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1A6792AB8C91400E9D399 /* ExperenemtSwiftUIApp.swift */; };
 		4DF1A67C2AB8C91400E9D399 /* Experement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1A67B2AB8C91400E9D399 /* Experement.swift */; };
 		4DF1A67E2AB8C91500E9D399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1A67D2AB8C91500E9D399 /* Assets.xcassets */; };
@@ -88,6 +93,11 @@
 		4D59B8DE2AC2EB13002A00B6 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4D59B8DF2AC2EB13002A00B6 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
 		4D59B8E02AC2EB13002A00B6 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D59B8E52AC435BB002A00B6 /* Experement27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experement27.swift; sourceTree = "<group>"; };
+		4D59B8E72AC45331002A00B6 /* Experement28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experement28.swift; sourceTree = "<group>"; };
+		4D59B8E92AC46012002A00B6 /* Experement29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experement29.swift; sourceTree = "<group>"; };
+		4D59B8EC2AC461CF002A00B6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		4D59B8EE2AC484AE002A00B6 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		4DF1A6762AB8C91400E9D399 /* ExperenemtSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExperenemtSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF1A6792AB8C91400E9D399 /* ExperenemtSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperenemtSwiftUIApp.swift; sourceTree = "<group>"; };
 		4DF1A67B2AB8C91400E9D399 /* Experement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experement.swift; sourceTree = "<group>"; };
@@ -179,6 +189,16 @@
 			path = Experement26;
 			sourceTree = "<group>";
 		};
+		4D59B8EB2AC461A9002A00B6 /* Exerement29 */ = {
+			isa = PBXGroup;
+			children = (
+				4D59B8E92AC46012002A00B6 /* Experement29.swift */,
+				4D59B8EC2AC461CF002A00B6 /* ImagePicker.swift */,
+				4D59B8EE2AC484AE002A00B6 /* ImageSaver.swift */,
+			);
+			path = Exerement29;
+			sourceTree = "<group>";
+		};
 		4DF1A66D2AB8C91400E9D399 = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +245,9 @@
 				4DF1A6F92AC1A11400E9D399 /* Experement24 */,
 				4DF1A7052AC1AF3100E9D399 /* Experement25 */,
 				4D59B8D32AC2E8C2002A00B6 /* Experement26 */,
+				4D59B8E52AC435BB002A00B6 /* Experement27.swift */,
+				4D59B8E72AC45331002A00B6 /* Experement28.swift */,
+				4D59B8EB2AC461A9002A00B6 /* Exerement29 */,
 				4DF1A67D2AB8C91500E9D399 /* Assets.xcassets */,
 				4DF1A67F2AB8C91500E9D399 /* Preview Content */,
 			);
@@ -405,7 +428,9 @@
 				4DF1A6E62ABC91FB00E9D399 /* RatingView.swift in Sources */,
 				4DF1A6922AB8CB7700E9D399 /* Experement6.swift in Sources */,
 				4DF1A6902AB8CB4700E9D399 /* Experement5.swift in Sources */,
+				4D59B8E62AC435BB002A00B6 /* Experement27.swift in Sources */,
 				4DF1A6D22ABC87F600E9D399 /* Bookworm1.xcdatamodeld in Sources */,
+				4D59B8EF2AC484AE002A00B6 /* ImageSaver.swift in Sources */,
 				4DF1A7122AC1B03500E9D399 /* Singer+CoreDataProperties.swift in Sources */,
 				4DF1A6F22AC19AA300E9D399 /* Experement23.xcdatamodeld in Sources */,
 				4DF1A6F62AC19B4200E9D399 /* Movie+CoreDataProperties.swift in Sources */,
@@ -414,10 +439,12 @@
 				4DF1A67C2AB8C91400E9D399 /* Experement.swift in Sources */,
 				4DF1A6972AB8CC0500E9D399 /* ExpenseItem.swift in Sources */,
 				4DF1A6C82ABB12D300E9D399 /* CheckoutView.swift in Sources */,
+				4D59B8EA2AC46012002A00B6 /* Experement29.swift in Sources */,
 				4DF1A70B2AC1AF6D00E9D399 /* DataController25.swift in Sources */,
 				4DF1A6E22ABC8CE600E9D399 /* Bookworm.xcdatamodeld in Sources */,
 				4DF1A6A12AB8DF2F00E9D399 /* Experement9.swift in Sources */,
 				4DF1A6CF2ABC852D00E9D399 /* GeneralView20v1.swift in Sources */,
+				4D59B8ED2AC461CF002A00B6 /* ImagePicker.swift in Sources */,
 				4DF1A6D42ABC886400E9D399 /* DataController1.swift in Sources */,
 				4DF1A7092AC1AF5D00E9D399 /* Experement25App.swift in Sources */,
 				4DF1A6BF2ABB106B00E9D399 /* Experement18.swift in Sources */,
@@ -452,6 +479,7 @@
 				4DF1A6EA2ABCAAD500E9D399 /* DetailView.swift in Sources */,
 				4DF1A6F82AC19EF900E9D399 /* DataController23.swift in Sources */,
 				4DF1A6A62AB9F82D00E9D399 /* Experement11.swift in Sources */,
+				4D59B8E82AC45331002A00B6 /* Experement28.swift in Sources */,
 				4DF1A6C22ABB113A00E9D399 /* Order.swift in Sources */,
 				4DF1A6E42ABC8DC100E9D399 /* AddBookView.swift in Sources */,
 				4DF1A6BA2ABA08D900E9D399 /* Experement16.swift in Sources */,
@@ -598,6 +626,7 @@
 				DEVELOPMENT_TEAM = VC74QLS5AT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = " We wont to save yuor filtred photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -627,6 +656,7 @@
 				DEVELOPMENT_TEAM = VC74QLS5AT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = " We wont to save yuor filtred photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

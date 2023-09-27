@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
-//
-//@main
-//struct ExperenemtSwiftUIApp: App {
-//    var body: some Scene {
-//        WindowGroup {
-//            Experement()
-//        }
-//    }
-//}
+
+@main
+struct ExperenemtSwiftUIApp: App {
+    var body: some Scene {
+        WindowGroup {
+            Experement29()
+        }
+    }
+}
