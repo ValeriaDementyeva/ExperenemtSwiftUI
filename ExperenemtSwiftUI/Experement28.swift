@@ -54,17 +54,17 @@ struct Experement28: View {
 //        let currenfFilter = CIFilter.comicEffect()
 //        currenfFilter.inputImage = beginImage
 //
-//        let currenfFilter = CIFilter.pointillize()
-//        currenfFilter.inputImage = beginImage
-//        currenfFilter.radius = 10
+        let currenfFilter = CIFilter.pointillize()
+        currenfFilter.inputImage = beginImage
+        currenfFilter.radius = 10
 
 //        let currenfFilter = CIFilter.bloom()
 //        currenfFilter.inputImage = beginImage
 //        currenfFilter.intensity = 40
 
-        let currenfFilter = CIFilter.edges()
-        currenfFilter.inputImage = beginImage
-        currenfFilter.intensity = 150
+//        let currenfFilter = CIFilter.edges()
+//        currenfFilter.inputImage = beginImage
+//        currenfFilter.intensity = 150
 
 
 

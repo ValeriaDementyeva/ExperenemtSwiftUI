@@ -10,7 +10,7 @@ import SwiftUI
 
 struct Experement29: View {
     @State private var image: Image?
-    @State private var filterIntensity = 0.5
+    @State private var filterIntensity = 0.0
 
     @State private var showingImagePicker = false
     @State private var inputImage: UIImage?
@@ -21,7 +21,18 @@ struct Experement29: View {
 
     @State private var showingFilterSheet = false
 
-//    enum FilterType: String
+    enum FilterType: String {
+        case crystallize = "Crystallize"
+        case pointillize = "Pointillize"
+        case gaussianBlur = "Gaussian Blur"
+        case pixellate = "Pixellate"
+        case sepiaTone = "Sepia Tone"
+        case unsharpMask = "Unsharp Mask"
+        case vignette = "Vignette"
+
+        case cancel = "Cancel"
+    }
+
 
     var body: some View {
         VStack{
@@ -41,23 +52,24 @@ struct Experement29: View {
             .onTapGesture {
                 showingImagePicker = true
             }
-            Group {
-                HStack{
-                    Text("Intensity")
-                    Slider(value: $filterIntensity)
-                        .onChange(of: filterIntensity) { newValue in
-                            applyProcessing()
-                        }
-                }
-            }
-            .padding(.vertical)
+
+                if image != nil {
+                    HStack{
+                        Text("Intensity")
+                        Slider(value: $filterIntensity)
+                            .onChange(of: filterIntensity) { newValue in
+                                applyProcessing()
+                            }
+                    }  .padding(.vertical)
+
+
 
             HStack{
                 Button("Change Filter") {
                     showingFilterSheet = true
                 }
                 Spacer()
-                if image != nil {
+
                     Button("Save", action: save)
                 }
             }
@@ -71,28 +83,29 @@ struct Experement29: View {
             ImagePicker(image: $inputImage)
         }
         .confirmationDialog("Select a filter", isPresented: $showingFilterSheet) {
-            Button("Crystallize") {
+            Button(FilterType.crystallize.rawValue) {
                 setFilter(CIFilter.crystallize())
             }
-            Button("Edges") {
-                setFilter(CIFilter.edges())
+            Button(FilterType.pointillize.rawValue) {
+                setFilter(CIFilter.pointillize())
             }
-            Button("Gaussian Blur") {
+            Button(FilterType.gaussianBlur.rawValue) {
                 setFilter(CIFilter.gaussianBlur())
             }
-            Button("Pixellate") {
+            Button(FilterType.pixellate.rawValue) {
                 setFilter(CIFilter.pixellate())
             }
-            Button("Sepia Tone") {
+            Button(FilterType.sepiaTone.rawValue) {
                 setFilter(CIFilter.sepiaTone())
             }
-            Button("Unsharp Mask") {
+            Button(FilterType.unsharpMask.rawValue) {
                 setFilter(CIFilter.unsharpMask())
             }
-            Button("Vignette") {
+            Button(FilterType.vignette.rawValue) {
                 setFilter(CIFilter.vignette())
             }
-            Button("Cancel", role: .cancel) {}
+
+            Button(FilterType.cancel.rawValue, role: .cancel) {}
         }
 
     }
@@ -115,7 +128,7 @@ struct Experement29: View {
         let inputKeys = currentFilter.inputKeys
 
         if inputKeys.contains(kCIInputIntensityKey) {
-            currentFilter.setValue(filterIntensity * 20, forKey: kCIInputIntensityKey)
+            currentFilter.setValue(filterIntensity * 10, forKey: kCIInputIntensityKey)
         }
         if inputKeys.contains(kCIInputRadiusKey) {
             currentFilter.setValue(filterIntensity * 150, forKey: kCIInputRadiusKey)
