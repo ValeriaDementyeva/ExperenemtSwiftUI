@@ -10,6 +10,7 @@ import SwiftUI
 import PhotosUI
 
 struct ImagePicker: UIViewControllerRepresentable {
+    @Binding var image: UIImage?
 
     class Coordinator: NSObject, PHPickerViewControllerDelegate {
         var parent: ImagePicker
@@ -34,8 +35,6 @@ struct ImagePicker: UIViewControllerRepresentable {
         }
 
     }
-
-        @Binding var image: UIImage?
 
         func makeUIViewController(context: Context) -> PHPickerViewController {
             var config = PHPickerConfiguration()
